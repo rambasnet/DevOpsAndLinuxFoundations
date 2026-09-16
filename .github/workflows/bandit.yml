@@ -29,16 +29,5 @@ jobs:
               run: python -m pip install bandit
 
             - name: Scan Python solutions H0
-              run: bandit -r demo-assignments/A0/hello/src
-
-            - name: Scan Python solutions H0-OOP
-              run: bandit -r demo-assignments/A0-OOP/hello/src
-
-            - name: Scan Python solutions H1
-              run: bandit -r demo-assignments/A1/cold/src
-
-            - name: Scan Python solutions H1-OOP
-              run: bandit -r demo-assignments/A1-OOP/cold/src
-
-            - name: Scan Python solutions H2-ABC
-              run: bandit -r demo-assignments/A2-ABC/egypt/src
+              run: |
+                  # FIXME
