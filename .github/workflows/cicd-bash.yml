@@ -27,7 +27,7 @@ jobs:
 
             - name: Run ShellCheck
               run: |
-                  shellcheck -x --source-path=bash/demos/cold bash/demos/cold/*.sh
+                  shellcheck -x --source-path=bash/demos/cold/src bash/demos/cold/src/*.sh
 
             - name: Install Bats
               run: |
@@ -36,4 +36,4 @@ jobs:
 
             - name: Run Bats unittest
               run: |
-                  bats demos/cold/tests/
+                  bats bash/demos/cold/tests/
