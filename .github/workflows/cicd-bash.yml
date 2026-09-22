@@ -1,4 +1,4 @@
-name: CI/CD Pipeline for Bash Scripts
+name: Bash CI/CD Pipeline
 
 on:
     push:

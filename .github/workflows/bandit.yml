@@ -1,4 +1,4 @@
-name: Python security checks
+name: Python Bandit Security Checks
 
 on:
     push:
