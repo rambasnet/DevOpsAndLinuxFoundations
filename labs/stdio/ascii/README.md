@@ -6,33 +6,29 @@ Possible points: 100
 
 Write a Bash script that displays some ASCII arts on to the Console/Terminal or standard output using variables and standard input/output. The ASCII art should include your name and the semester year.
 
-### Lab Instructions
+## Type and fix the code
 
-2. Open your Lab Repository in your favourite IDE
-3. Create a lab folder called ascii
-4. In ascii folder, create a new file: main.sh
-5. Type the code stub in main.sh file as a hint to complete the lab
-6. Never copy-paste code; you’ll not learn anything by doing so!
-7. Type each line of code and use incremental development techniques to learn what the given code does and what happens when you add each line(s) of new code to complete your lab.
+1. Create the directory structure similar to this lab as shown below:
+
+```bash
+ascii/
+├── ascii.sh
+├── Makefile
+└── README.md
+└── screenshots/
+```
+
+1. Type the contents provided in `ascii.sh` and fix all fixmes. Write #fixed# after each #fixme.
+2. Run the script using the following command:
 
 ```bash
 cd <lab folder>
 ls
-bash <bash script file>
+bash ascii.sh
 ```
 
-8. Do git add, commit and push as often as possible after every significant improvement or after each fixme is fixed and tested so you are familiar with the git commands, and you have a working backup.
-9. Add, and commit files to local git repo then push to remote.
-
-```bash
-$ git add main.sh
-$ git commit -m “create main.sh”
-$ git push
-```
-
-10. Fix all the FIXMEs and write #fixed# at the end of each FIXME that’s fixed except at the end of your name and date.
-11. The completed lab should produce an output that looks like the following:
-    a. Note: replace the placeholder < > with actual value/data.
+The completed lab should produce an output that looks like the following:
+a. Note: replace the placeholder < > with actual value/data.
 
 ```
    |\_/|       *****************************     (\_/)
@@ -45,13 +41,15 @@ $ git push
 
 Note: The figure on the right (looks like a mouse) uses both single ( ' ) and double quotes ( " ) and you must find a way to print both single and double quotes as shown.
 
-12. Create a screenshot of the completed program with the final output displayed on the Terminal and save it to the current lab folder. (10 points)
-13. When done, update your README file (10 points) as shown here: https://github.com/rambasnet/CSXXX-rbasnet
-14. All FIXMEs are worth equal points unless stated otherwise.
+3. All FIXMEs are worth equal points unless stated otherwise.
 
 ## Submission
 
-Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+1. Create screenshots of the completed program with the final output displayed on the Terminal and save it to the **screenshots** folder. (10 points)
+
+2. When done, update your README file (10 points) as shown here: [https://github.com/rambasnet/CSXXX-rbasnet](https://github.com/rambasnet/CSXXX-rbasnet)
+
+3. Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
 
 ```bash
 $ git pull

@@ -69,13 +69,13 @@ kattis submit
 - fix any issues if found. If any test fails, it should print an error message.
 
 ```bash
-make test
+make bats
 ```
 
 ## Submission
 
-1. Create at least 3 screenshots showing your local tests (kattis test and make test) and the kattis submit final **Accept** verdict and save them to the **screenshots** folder. (10 points).
-2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
+1. Create at least 3 screenshots showing your local tests (kattis test and make bats) and the kattis submit final **Accept** verdict and save them to the **screenshots** folder. (10 points).
+2. Update the `README.md` file (10 points) as shown here: [https://github.com/rambasnet/csXXX-rbasnet](https://github.com/rambasnet/CSXXX-rbasnet)
 
 ```bash
 cd <main repo folder>

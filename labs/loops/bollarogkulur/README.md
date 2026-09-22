@@ -67,13 +67,13 @@ kattis submit
 - Unit testing is done using bats framework in the `test_utils.bats` file
 
 ```bash
-make test
+make bats
 ```
 
 ## Submission
 
-1. Create at least 3 screenshots showing your local tests (kattis test and make doctest) and the kattis final **Accept** verdict and save them to the **screenshots** folder. (10 points).
-2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
+1. Create at least 3 screenshots showing your local tests (kattis test and make bats) and the kattis final **Accept** verdict and save them to the **screenshots** folder. (10 points).
+2. Update the `README.md` file (10 points) as shown here: [https://github.com/rambasnet/csXXX-rbasnet](https://github.com/rambasnet/CSXXX-rbasnet)
 
 ```bash
 cd <main repo folder>

@@ -3,7 +3,7 @@
 run:
 	bash src/chokladkartongen.sh
 
-test:
+bats:
 	bats -r --verbose-run tests/ 
 
 kattis-test:

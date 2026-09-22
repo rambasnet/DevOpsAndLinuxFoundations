@@ -3,7 +3,7 @@
 run:
 	bash src/twostones.sh
 
-test:
+bats:
 	bats tests/ 
 
 kattis-test:

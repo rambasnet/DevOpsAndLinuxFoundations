@@ -3,7 +3,7 @@
 run:
 	bash src/sumofpowers.sh
 
-test:
+bats:
 	bats -r --verbose-run tests/ 
 
 kattis-test:

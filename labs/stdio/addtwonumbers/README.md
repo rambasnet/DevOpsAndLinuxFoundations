@@ -38,7 +38,7 @@ addtwonumbers/
 └── screenshots/
 ```
 
-2. Type the contents provided in `.h` and `.cpp` files and fix all fixmes. Write #fixed# after each #fixme.
+2. Type the contents provided in `.sh` and `Makefile` files and fix all fixmes. Write #fixed# after each #fixme.
 3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ### Input and Output format
@@ -59,19 +59,10 @@ kattis test
 kattis submit
 ```
 
-## Unit testing with Doctest
-
-1. Create **doctest** folder in the **labs** root folder and copy the `doctest.h` file into it from [https://github.com/doctest/doctest/tree/master/doctest ](https://github.com/doctest/doctest/tree/master/doctest)
-2. Set the doctest rule in the Makefile and run the tests. Fix any issues if found.
-
-```bash
-make doctest
-```
-
 ## Submission
 
-1. Create at least 3 screenshots showing your local tests (kattis test and make doctest) and the kattis final **Accept** verdict and save them to the **screenshots** folder. (10 points).
-2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
+1. Create at least 3 screenshots showing your local `kattis test` and the `kattis submit` final **Accept** verdict and save them to the **screenshots** folder. (10 points).
+2. Update the `README.md` file (10 points) as shown here: [https://github.com/rambasnet/csXXX-rbasnet](https://github.com/rambasnet/CSXXX-rbasnet)
 
 ```bash
 cd <main repo folder>

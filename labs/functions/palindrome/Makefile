@@ -3,7 +3,7 @@
 run:
 	bash src/palindrome.sh
 
-test:
+bats:
 	bats tests/ 
 
 kattis-test:
