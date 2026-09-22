@@ -17,6 +17,7 @@ RUN apt update \
     sudo \
     zsh \
     bats\
+    shellcheck \
     openssh-client \
     && rm -rf /var/lib/apt/lists/*
 

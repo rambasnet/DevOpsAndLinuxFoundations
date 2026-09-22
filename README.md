@@ -1,5 +1,7 @@
 # Dev Ops and Cloud Foundations with Linux
 
+![Test](https://github.com/rambasnet/DevOpsAndLinuxFoundations/actions/workflows/bandit.yml/badge.svg)
+
 - provides Jupyter notebooks and exercises to help learners understand the fundamentals of DevOps and cloud computing, with a focus on Linux-based systems
 - provide labs in a hands-on manner to help learners gain practical experience with Bash scripting, Git, CI/CD pipelines, and Docker containers
 
